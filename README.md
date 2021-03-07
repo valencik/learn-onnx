@@ -2,6 +2,14 @@
 
 ### Usage
 
+Publish `onnx-scala` `0.9.0` locally:
+
+```sh
+git clone https://github.com/EmergentOrder/onnx-scala.git
+cd onnx-scala
+sbt publishLocal
+```
+
 Get the squeezenet model:
 
 ```sh
@@ -14,7 +22,10 @@ Run the example:
 sbt run
 ```
 
+You should see the follow:
 
----
-
-Build with `sbt new lampepfl/dotty.g8`
+```
+...
+[info] running SqueezeNet.Example.hello
+The predicted class is 418
+```
