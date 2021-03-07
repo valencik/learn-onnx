@@ -1,8 +1,20 @@
-## sbt project compiled with Scala 3
+## Playing with onnx-scala
 
 ### Usage
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+Get the squeezenet model:
 
-For more information on the sbt-dotty plugin, see the
-[dotty-example-project](https://github.com/lampepfl/dotty-example-project/blob/master/README.md).
+```sh
+curl -O "https://s3.amazonaws.com/onnx-model-zoo/squeezenet/squeezenet1.1/squeezenet1.1.onnx"
+```
+
+Run the example:
+
+```sh
+sbt run
+```
+
+
+---
+
+Build with `sbt new lampepfl/dotty.g8`
