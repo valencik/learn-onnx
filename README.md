@@ -2,7 +2,7 @@
 
 ### Usage
 
-Publish `onnx-scala` `0.9.0` locally:
+Publish `onnx-scala` `0.12.0` locally:
 
 ```sh
 git clone https://github.com/EmergentOrder/onnx-scala.git
